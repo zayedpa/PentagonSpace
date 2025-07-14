@@ -1,0 +1,18 @@
+class employee:
+    def __init__(self):
+        self.name='rumaan'
+        self.age=21
+        self.wife='faza'
+    def omegle(self):
+        print("rumaan is a bolan")
+e1=employee()
+print(e1.name)
+print(e1.age)
+print(e1.wife)
+
+e1.omegle()
+e1.numOfGirls=7
+print(e1.numOfGirls)
+e1.wife="najla"
+print(e1.wife)
+del e1.age
