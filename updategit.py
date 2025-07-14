@@ -7,7 +7,7 @@ REPO_PATH = r"C:\Desktop\PentagonSpace"
 os.chdir(REPO_PATH)
 
 # Generate commit message with current timestamp
-commit_message = f"Auto commit on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+commit_message = f"committed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
 
 try:
     subprocess.run(["git", "add", "."], check=True)
