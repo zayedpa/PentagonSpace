@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-REPO_PATH = r"D:\pentagonspace"
+REPO_PATH = r"C:\Desktop\PentagonSpace"
 
 os.chdir(REPO_PATH)
 
