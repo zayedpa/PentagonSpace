@@ -1,0 +1,5 @@
+t=(11,22,33,("zayed","mohammad"),44)
+print(t)
+print(t[3][1])
+print(t[3][0])
+print(t[4])

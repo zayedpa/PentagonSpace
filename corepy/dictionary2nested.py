@@ -1,0 +1,16 @@
+student={
+"name":"rumaan",
+"age":21,
+"gender":"male",
+"address":{
+    "resi":"banglore",
+    "permanent":"peraje"
+},
+"phnum":{
+    "mobile":2233,
+    "land":7878
+}
+}
+print(student["phnum"]["land"])
+student["phnum"]["mobile"]=2255
+print(student)
