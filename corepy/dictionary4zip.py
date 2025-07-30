@@ -1,0 +1,11 @@
+id=[1,2,3,4]
+name=["zayed","afsar","rumaan","midlaj"]
+res=dict(zip(id,name))
+print(res)
+age=[23,22,21,22]
+address=["ksd","mdk","prj","pch"]
+#res1=dict(zip(id,name,age,address))
+#print(res1)
+info=list(zip(name,age,address))
+student_info=dict(zip(id,info))
+print(student_info)
