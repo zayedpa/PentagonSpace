@@ -1,15 +1,6 @@
-a=10
-def outer():
-    global a
-    a=100
-    b=200
-    print(a)
-    print(b)
-def inner():
-    c=300
-    print(a)
-    print(c)
-print(a)
-outer()
-inner()
+name=input("enter a name")
+print(f"the name is {name}")
+
+l=lambda num:num*num
+print(l(4))
 
